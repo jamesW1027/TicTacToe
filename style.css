@@ -1,0 +1,33 @@
+
+.tictactoe {
+    color: 0000CC;
+    text-align: center;
+    font-size: 75px;
+    font-family: fantasy;
+}
+
+.cell {
+    border: 3px solid black;
+    border-inline-end: 10px;
+    font-size: 100px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    width: 150px;
+
+    
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1250px
+}
+
+.table {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
